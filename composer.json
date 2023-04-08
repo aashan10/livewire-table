@@ -1,0 +1,23 @@
+{
+    "name": "aashan/livewire-table",
+    "description": "A Package to handle LiveWire Tables",
+    "authors": [
+        {
+            "name": "Ashan Ghimire",
+            "email": "ashanghimire10@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LivewireTable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LivewireTable\\Providers\\TableServiceProvider"
+            ],
+            "aliases": []
+        }
+    }
+}
